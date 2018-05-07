@@ -1,101 +1,245 @@
 <!-- the page: https://www.ironhack.com/en/locations/miami -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../ironhack-internal-hackathon/styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    display: flex;  
+    width: 50%;
+      height: 15%;
+      align-items: center;
+      justify-content: center;
+      margin-left: 300px;
+      padding: 50px;
 
+  }
+  </style>
+  <title>Ironhack Miami</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+        <div class="container"> <a class="navbar-brand " href="# "><img src="images/ih-logo.png" id="ih-logo" width="35px"></a>
+            <ul class="nav navbar-nav ml-auto"
+            id="nav">
+                <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">Courses
+                                    <span class="caret"></span>
+                                </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"> <a href="#">Full Time Web Dev</a>
+                        </li>
+                        <li class="dropdown-item"> <a href="#">Part-time Web Dev</a>
+                        </li>
+                        <li class="dropdown-item"> <a href="#">Full Time UX/UI</a>
+                        </li>
+                        <li class="dropdown-item"> <a href="#">Part-time UX/UI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">Locations
+                                    <span class="caret"></span>
+                                </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"> <a href="#">Miami</a>
+                        </li>
+                        <li class="dropdown-item"> <a href="#">Madrid</a>
+                        </li>
+                        <li class="dropdown-item"> <a href="#">Mexico</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="# " class="nav-link">Alumni</a>
+                </li>
+                <li class="nav-item"> <a href="# " class="nav-link">Career Services</a>
+                </li>
+                <li class="nav-item"> <button class="btn btn-info p-0"><a href="# " class="nav-link">Apply Now</a></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-Courses
-Locations
-Alumni 
-Career Services
-Apply now
+      <div id="rooftop-img">
+      </div>
+      <div class="container p-5">
+          <div id="Courses">
+        
+              <article class="courses">
+                <h3>Web Development Bootcamp</h3>
+                <h4>9 weeks/full-time | 24 weeks/ part-time</h4>
+                Become a Full Stack Web Developer. Learn front-end design and backend architecture fundamentals using top-notch technologies 
+                like Angular 2, Express, MongoDB and agile methodologies.
+              </article>
+              
+              <article class="courses">
+                <h3>UX/UI Design Bootcamp</h3>
+                <h4>9 weeks/full-time | 24 weeks/ part-time</h4>
+                Become a UX/UI designer. Learn user-centered design applying the Design Thinking process and validate your ideas through user research,
+                prototyping, user testing, and heuristic evaluation. Learn UI and IxD to prototype
+                your solutions using visual and interaction design techniques.
+              </article>
+              
+            
+            
+            </div>
+    <div>
+      <h2>What Sets Miami Apart?</h2>
+      <div class="container pd-5"> 
+          
+          <div class="card-deck">
+            <div class="card bg-light">
+              <img class="card-img-top" src="../ironhack-internal-hackathon/images/noun_1232958_2c344e.png" alt="Card image cap">
+              <hr>
+              <div class="card-body text-center">
+                <p class="card-text">Time</p>
+          
+              </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="../ironhack-internal-hackathon/images/career-servces.png" alt="Card image cap">
+                <hr>
+              <div class="card-body text-center">
+                <p class="card-text">Career Services</p>
+              </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="../ironhack-internal-hackathon/images/phone.png" alt="Card image cap">
+                <hr>
+              <div class="card-body text-center">
+                <p class="card-text">Job Placement</p>
+              </div>
+            </div>
+            <div class="card bg-light">
+                <img class="card-img-top" src="../ironhack-internal-hackathon/images/one-guy.png" alt="Card image cap">
+                <hr>
+              <div class="card-body text-center">
+                <p class="card-text">Instructor</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+    </div>
+  </div>
+    <div class="bg-dark">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+          </ul>
+          
+          <!-- The slideshow -->
+          <div class="container carousel-inner">
+            <div class="carousel-item active">
+              <img src="../ironhack-internal-hackathon//images/Alli Baba.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+              <img src="../ironhack-internal-hackathon/images/Joe Smoe.jpg" alt="Chicago">
+            </div>
+      
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    </div>
+      <div class="container">
+          <div class="row p-5">
+              <div class="col-sm-12 text-center">
+                  <button id="btnSearch" class="btn btn-info btn-md center-block" Style="width: 100px;" OnClick="btnSearch_Click" >Learn More</button>
+                   <button id="btnClear" class="btn btn-info btn-md center-block" Style="width: 100px;" OnClick="btnClear_Click" >Apply</button>
+               </div>
+          </div>
+        </div>
+      
+  
+ <div class="container">
+      <div id="location">
+        
+            <div>
+              <h2>Find us in Miami</h2>
+              <h4>Campus Ironhack Miami</h4>
+              <p>120 SW 8th St. <br>
+              Miami, Fl 33130</p> <br>
+              <h4>Contact us</h4>
+              <p>mia@ironhack.com <br>
+              +1 (305) 907 7086</p> <br>
+            </div>
+        <div><img src="../ironhack-internal-hackathon//images/image.png" width="700px" alt=""></div>
+      </div>
+      <section id="footer">
+          <div class="container">
+              <div class="row text-center text-xs-center text-sm-left text-md-left">
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                      <h5>Ironhack</h5>
+                      <ul class="list-unstyled quick-links">
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Team</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Work with us</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Press</a></li>
+                          
+                      </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                      <h5>More Info</h5>
+                      <ul class="list-unstyled quick-links">
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hire</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+                          
+                      </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                      <h5>Follow us</h5>
+                      <ul class="list-unstyled quick-links">
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Twitter</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Facebook</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Instagram</a></li>
+                          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>GYoutube</a></li>
+                          <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                      <ul class="list-unstyled list-inline social text-center">
+                          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                          <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                      </ul>
+                  </div>
+                  </hr>
+              </div>    
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                      <p>Ironhack SL Paseo de la Chopera, 14, 28045 Madrid, Spain
+  © 2017 Ironhack. All Rights Reserved</p>
+                      
+                  </div>
+                  </hr>
+              </div>    
+          </div>
+      </section>
+ </div>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</body>
+</html>
 
-Find us in Miami
-Campus Ironhack Miami
-120 SW 8th St.
-Miami, Fl 33130
-Contact us
-mia@ironhack.com
-+1 (305) 907 7086
-
-What sets Miami apart?
-
-A Growing Startup City
-Miami is one of the fastest growing startup cities in America, 2nd only to Austin, TX. 
-At our location in Building.co, a state-of-the-art co-working space in the heart of Miami, 
-you'll be at the epicenter of this dynamic startup city.
-
-An International Hub
-With the largest foreign-born population of any US city, Miami has become an international hub for tech and business. 
-Ironhack Miami's students & staff will expose you to many of the opportunities that make Miami so unique.
-
-A Global Center for the Arts
-Home to the largest art fair in America (Art Basel Miami Beach), Miami has become a booming cultural hub for both the US 
-and the World. Best of all, we're only 10 minutes away from Miami’s artistic home, Wynwood.
-
-Work hard, play hard
-We all know that it can’t be just work. It doesn’t matter what you’re looking for -- whether it’s world-class nightclubs, 
-chill craft beer bars or beach parties during the day, Miami has some of the world’s best entertainment alternatives a few 
-minutes away from our campus.
-
-Upcoming in Miami
-
-Web Development Bootcamp
-9 weeks/full-time
-Become a Full Stack Web Developer in 9 weeks. Learn front-end design and backend architecture fundamentals using top-notch technologies 
-like Angular 2, Express, MongoDB and agile methodologies.
-
-UX/UI Design Bootcamp
-9 weeks/full-time
-Become a UX/UI designer in 9 weeks. Learn user-centered design applying the Design Thinking process and validate your ideas through user research,
-prototyping, user testing, and heuristic evaluation. Learn UI and IxD to prototype
-your solutions using visual and interaction design techniques.
-
-Web Development Part-Time
-24 weeks/ part-time
-Become a full-stack web developer through our flexible 24 week program. Learn the same material covered
-in our full-time programs: front-end design and back-end architecture fundamentals while using top-notch 
-technologies like Angular 2, Express, MongoDB and agile methodologies.
-
-UX/UI Design Part-Time
-4 weeks/ part-time
-Become a UX/UI designer in a flexible 24 week program. Learn user-centered design applying the Design Thinking process and validate your ideas through user research,
-prototyping, user testing, and heuristic evaluation. Learn UI and IxD to prototype
-your solutions using visual and interaction design techniques.
-
-Subscribe to receive the dates for our upcoming bootcamps in Miami
-
-Enter your email
-Get Updates
-
-
-Check out what it's like to be an Ironhacker in real-life on our social media channels :)
-
-COMPANY
-Team
-Work with us
-Blog
-Press
-
-MORE INFO
-FAQ
-Contact
-Hire
-Privacy Policy
-
-FOLLOW US
-Twitter
-Facebook
-Instagram
-GitHub
-Youtube
-
-OUR LOCATIONS
-Amsterdam
-Barcelona
-Berlin
-Madrid
-Mexico City
-Miami
-Paris
-São Paulo
-
-Ironhack SL Paseo de la Chopera, 14, 28045 Madrid, Spain
-© 2017 Ironhack. All Rights Reserved
